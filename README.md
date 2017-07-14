@@ -4,8 +4,8 @@ first commit
 only finished build index and search 
 
 ##finished
--[x] getUrls from webpage bookmarks (From xml file simply exported from chrome)
--[x] craw url content via webMagic ,due to time i only handled `blog.csdn.com` and `cnblogs.com` more will be added in the near future 
+- [x] getUrls from webpage bookmarks (From xml file simply exported from chrome)
+- [x] craw url content via webMagic ,due to time i only handled `blog.csdn.com` and `cnblogs.com` more will be added in the near future 
 
 ##TODO
 - [ ] dumplicate remove unsolved
