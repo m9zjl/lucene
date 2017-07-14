@@ -88,8 +88,11 @@ public class LuceneUtil  {
             ScoreDoc[] hits = topDocs.scoreDocs;
             for(int i=0;i<hits.length;i++){
                 Document hitDoc = searcher.doc(hits[i].doc);
-                System.out.println(hitDoc.get("title"));
-                System.out.println(hitDoc.get("url"));
+                System.out.println(String.format("the %dth result:",i+1));
+                System.out.println("   title :"+hitDoc.get("title"));
+                System.out.println("   url   :"+hitDoc.get("url"));
+                System.out.println("   content:  "+hitDoc.get("content").substring(0,200));
+                System.out.println("\n");
             }
         }catch (Exception e){
             throw new RuntimeException(e);

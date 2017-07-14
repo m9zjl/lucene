@@ -4,6 +4,7 @@ import us.codecraft.webmagic.scheduler.QueueScheduler;
 
 import java.io.*;
 import java.util.List;
+import java.util.Scanner;
 
 public class Main {
 
@@ -15,6 +16,12 @@ public class Main {
 //        for(String url:urlList)
 //            spider.addUrl(url);
 //        spider.thread(10).run();
-        LuceneUtil.query("面试",10,10);
+        Scanner in = new Scanner(System.in);
+        while(in.hasNextLine()){
+            String keyWord = in.nextLine().trim();
+            System.out.println(String.format("搜索：%s",keyWord));
+            LuceneUtil.query(keyWord,10,10);
+        }
+
     }
 }
