@@ -16,7 +16,7 @@ only finished build index and search
 -[ ] loca file support
 
 ##sample
-![](2.png)
+![](3.png)
 
 ##libs used
 - webmagic
