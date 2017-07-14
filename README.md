@@ -19,7 +19,7 @@ only finished build index and search
 
 ##sample
 
-![](Screen Shot 2017-07-14 at 17.34.53.png)
+![](https://github.com/m9zjl/parafoil/blob/master/Screen Shot 2017-07-14 at 17.34.53.png)
 
 ##libs used
 
